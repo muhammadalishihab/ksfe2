@@ -1,5 +1,4 @@
 geopy
-difflib
 dill
 Flask 
 sqlite3
