@@ -1,5 +1,4 @@
 geopy
 dill
 Flask 
-sqlite3
 gunicorn
