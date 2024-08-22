@@ -28,7 +28,7 @@ chatbot_function = chatbot_model["chatbot"]
 app = Flask(__name__)
 
 # Connect to the SQLite database
-conn = sqlite3.connect('/content/ksfe_near.db', check_same_thread=False)
+conn = sqlite3.connect('ksfe_near.db', check_same_thread=False)
 cursor = conn.cursor()
 
 @app.route('/chatbot', methods=['GET'])
